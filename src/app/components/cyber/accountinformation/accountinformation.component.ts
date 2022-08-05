@@ -11,6 +11,8 @@ export class AccountinformationComponent implements OnInit {
   constructor(private navigationService: NavigationService) { }
 
   ngOnInit(): void {
+    this.navigationService.currentProduct = 'cyber';
+    this.navigationService.currentStep = 0;
   }
 
   validateNext(){

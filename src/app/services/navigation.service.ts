@@ -7,7 +7,7 @@ import steppers from "src/assets/constant-files/steppers";
   })
   export class NavigationService {
 
-    currentProduct: string = 'Cyber';
+    currentProduct: string = '';
     currentStep: number = 0;
 
     steps = JSON.parse(JSON.stringify(steppers));
